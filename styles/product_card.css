@@ -13,78 +13,6 @@ p {
 h2 {
   margin: 0; }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 50px;
-  font-weight: 500;
-  font-size: 12px;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
-  .header__logo {
-    margin: auto 0;
-    width: 40px;
-    height: 40px; }
-
-.nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-.nav__item {
-  margin-right: 20px; }
-  .nav__item:last-child {
-    margin-right: 0; }
-
-.nav__link {
-  display: inline-block;
-  position: relative;
-  white-space: nowrap;
-  line-height: 60px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black; }
-  .nav__link:hover {
-    color: #00acdc; }
-  .nav__link.is-active {
-    color: #00acdc; }
-    .nav__link.is-active::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      white-space: normal;
-      width: 100%;
-      height: 4px;
-      border-radius: 2px;
-      overflow: hidden;
-      background-color: #00acdc; }
-
-html {
-  font-family: "Roboto", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 1.18em; }
-
-body {
-  margin: 0; }
-
-p {
-  margin: 0; }
-
-h2 {
-  margin: 0; }
-
 .product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,36 +144,4 @@ h2 {
 .product:nth-child(8) {
   margin-top: 50px; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 1.18em; }
-
-body {
-  margin: 0; }
-
-p {
-  margin: 0; }
-
-h2 {
-  margin: 0; }
-
-.catalog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 50px auto 78px;
-  width: 944px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.main__title--h1 {
-  position: fixed;
-  visibility: hidden;
-  font-size: 1px; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=product_card.css.map */

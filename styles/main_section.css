@@ -13,6 +13,11 @@ p {
 h2 {
   margin: 0; }
 
+.main__title--h1 {
+  position: fixed;
+  visibility: hidden;
+  font-size: 1px; }
+
 .catalog {
   display: -webkit-box;
   display: -ms-flexbox;

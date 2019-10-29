@@ -204,18 +204,6 @@ h2 {
     background-color: #fff;
     border: 1px solid #00acdc; }
 
-.product:nth-child(5) {
-  margin-top: 50px; }
-
-.product:nth-child(6) {
-  margin-top: 50px; }
-
-.product:nth-child(7) {
-  margin-top: 50px; }
-
-.product:nth-child(8) {
-  margin-top: 50px; }
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 11px;
@@ -233,19 +221,17 @@ h2 {
 
 .main__title--h1 {
   position: fixed;
-  visibility: hidden;
+  opacity: 0;
   font-size: 1px; }
 
 .catalog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 50px auto 78px;
-  width: 944px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-column-gap: 48px;
+  grid-row-gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */
